@@ -22,7 +22,7 @@ export async function login(username,password){
         const res = await api.post("/login",{
             username,
             password
-        })
+        }) 
         return res
     } catch (error) {
         throw error
